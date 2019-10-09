@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Long</title>
+</head>
+<span id="baby"></span>
+<body>
+<script>
+    let said = [1,4,-4,-412,421,52,512,521,999];
+        document.getElementById("baby").innerHTML = myArrayMin(said);
+        function myArrayMin(arr) {
+            return Math.min.apply(null, arr);
+    }
+</script>
+</body>
+</html>
